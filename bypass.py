@@ -25,9 +25,9 @@ if __name__ == "__main__":
             if file_extension != ".js":
                 logger.warning("\"%s\" is not an JS file! skipping...", path)
             logger.info("Opening \"%s\"", file)
-            raw = open(file,'r')
+            raw = open(file,'r', encoding="utf8")
             raw = raw.read()
-            f = open(file,'w+')
+            f = open(file,'w+', encoding="utf8")
             new = raw.replace('{data;}', '{return;}')
             f.write(new)
             f.close()
