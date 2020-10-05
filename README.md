@@ -1,5 +1,5 @@
 # Magician-Python
-A Club Penguin Rewritten private server written in Python 3
+A Club Penguin Rewritten private server written in Python 3 & PHP kitnuse!
 
 # Set up
 
